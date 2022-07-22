@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-learning",
+  "version": "1.0.0",
+  "description": "This is a Simple Website made with the help of tailwind Css. This website is a proof that I have learned Tailwind and I am quite Proficient at it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek-Raj-Poudel/Tailwind-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek-Raj-Poudel/Tailwind-Learning/issues"
+  },
+  "homepage": "https://github.com/Abhishek-Raj-Poudel/Tailwind-Learning#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
