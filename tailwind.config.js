@@ -1,7 +1,11 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jetbrains: ["JetBrains Mono", "monospace"],
+      },
+    },
   },
   plugins: [],
 };
