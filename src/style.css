@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .card {
-  @apply bg-slate-800 rounded overflow-hidden shadow-lg relative;
+  @apply bg-slate-800 rounded overflow-hidden shadow-lg hover:shadow-2xl relative;
 }
 
 .badge {
@@ -13,13 +13,13 @@
 }
 
 .btn {
-  @apply rounded py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+  @apply rounded py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider duration-150;
 }
 
 .btn-log {
-  @apply text-orange-400 border-orange-400 border-2 hover:bg-orange-400 hover:text-gray-300;
+  @apply text-orange-400 border-orange-400 border-2 hover:bg-orange-400 hover:text-gray-300  duration-150;
 }
 
 .nav-button {
-  @apply flex items-center gap-1;
+  @apply flex justify-end items-center gap-1 duration-100  md:hover:border-b-2 px-4;
 }
